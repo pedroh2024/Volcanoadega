@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cardápio Volcano Adega</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <img src="img/Volcano.jpeg" alt="Logo" class="logo">
+  <nav>
+    <a href="index.html" class="voltar-cardapio">← Voltar ao Cardápio</a>
+    <a href="carrinho.html">🛒</a>
+  </nav>
+</header>
+
+
+  <h2>Balde Cerveja</h2>
+
+    <div class="produto">
+    <div>
+      <h3 class="NomeBebibas">Heineken LONG 10UN</h3>
+      <p>R$109,99</p>
+    </div>
+    <img src="combo/Heineken long.png" alt="Heineken">
+    <button onclick="adicionarAoCarrinho('Heineken LONG 10UN', 109.99)">Adicionar</button>
+  </div>
+
+
+    <div class="produto">
+    <div>
+      <h3 class="NomeBebibas">Original269ml 10UN</h3>
+      <p>R$49,99</p>
+    </div>
+    <img src="combo/CervejaOriginal.png" alt="Heineken">
+    <button onclick="adicionarAoCarrinho('Original269ml 10UN', 109.99)">Adicionar</button>
+  </div>
+
+
+      <div class="produto">
+    <div>
+      <h3 class="NomeBebibas">Eisenbahn269ml 10UN</h3>
+      <p>R$54,99</p>
+    </div>
+    <img src="combo/Eisenbahn.png" alt="Heineken">
+    <button onclick="adicionarAoCarrinho('Eisebahn269ml 10UN', 54.99)">Adicionar</button>
+  </div>
+
+
+      <div class="produto">
+    <div>
+      <h3 class="NomeBebibas">Heineken269ml 10UN</h3>
+      <p>R$64,99</p>
+    </div>
+    <img src="combo/CervejaHeineken.png" alt="Heineken">
+    <button onclick="adicionarAoCarrinho('Heineken269ml 10UN', 64.99)">Adicionar</button>
+  </div>
+
+
+      <div class="produto">
+    <div>
+      <h3 class="NomeBebibas">Skol269ml 10UN</h3>
+      <p>R$39,99</p>
+    </div>
+    <img src="combo/CervejaSkol.png" alt="Heineken">
+    <button onclick="adicionarAoCarrinho('Skol269ml 10UN', 39.99)">Adicionar</button>
+  </div>
+
+      <div class="produto">
+    <div>
+      <h3 class="NomeBebibas">Amstel269ml 10UN</h3>
+      <p>R$44,99</p>
+    </div>
+    <img src="combo/CervejaAmstel.png" alt="Heineken">
+    <button onclick="adicionarAoCarrinho('Amstel269ml 10UN', 44.99)">Adicionar</button>
+  </div>
+
+
+
+  <main id="Drinks" class="produtos">
+  <h2>Combos Vibe</h2>
+  <h4>🍺Após escolher o combo, selecione o gelo abaixo!🍺</h4>
+
+
+  <div class="produto">
+    <div>
+      <p>R$99,99</p>
+    </div>
+    <img src="combo/ComboVibeWhite.png" alt="Combo White Horse">
+    <button onclick="adicionarAoCarrinho('Combo White Horse', 99.99)">Adicionar</button>
+  </div>
+
+  <div class="produto">
+    <div>
+      <h3 class="NomeBebibas">Red Label</h3>
+      <p>R$119,99</p>
+    </div>
+    <img src="combo/ComboVibeRed.png" alt="Combo Red Label">
+    <button onclick="adicionarAoCarrinho('Combo Red Label', 119.99)">Adicionar</button>
+  </div>
+
+  <div class="produto">
+    <div>
+      <h3 class="NomeBebibas">Jack Tradicional</h3>
+      <p>R$199,99</p>
+    </div>
+    <img src="combo/ComboVibeJack.png" alt="Combo Jack Tradicional">
+    <button onclick="adicionarAoCarrinho('Combo Jack Tradicional', 199.99)">Adicionar</button>
+  </div>
+
+  <div class="produto">
+    <div>
+      <h3 class="NomeBebibas">Ballantine's</h3>
+      <p>R$99,99</p>
+    </div>
+    <img src="combo/ComboVibeBallantines.png" alt="Combo Ballantine's">
+    <button onclick="adicionarAoCarrinho('Combo Ballantines', 99.99)">Adicionar</button>
+  </div>
+
+  <div class="produto">
+    <div>
+      <h3 class="NomeBebibas">Gin</h3>
+      <p>R$44,99</p>
+    </div>
+    <img src="combo/GIN.png" alt="Combo Gin">
+    <button onclick="adicionarAoCarrinho('Combo Gin', 44.99)">Adicionar</button>
+  </div>
+
+  <h2>Combos Red Bull</h2>
+
+  <div class="produto">
+    <div>
+      <h3 class="NomeBebibas">White Horse</h3>
+      <p>R$129,99</p>
+    </div>
+    <img src="combo/ComboRedWhite.png" alt="Combo Red Bull White Horse">
+    <button onclick="adicionarAoCarrinho('Combo White Horse Red Bull', 129.99)">Adicionar</button>
+  </div>
+
+  <div class="produto">
+    <div>
+      <h3 class="NomeBebibas">Red Label</h3>
+      <p>R$144,99</p>
+    </div>
+    <img src="combo/ComboRedRed.png" alt="Combo Red Bull Red Label">
+    <button onclick="adicionarAoCarrinho('Combo Red Label Red Bull', 144.99)">Adicionar</button>
+  </div>
+
+  <div class="produto">
+    <div>
+      <h3 class="NomeBebibas">Jack Tradicional</h3>
+      <p>R$219,99</p>
+    </div>
+    <img src="combo/ComboRedJack.png" alt="Combo Red Bull Jack Tradicional">
+    <button onclick="adicionarAoCarrinho('Combo Jack Tradicional Red Bull', 219.99)">Adicionar</button>
+  </div>
+
+  <div class="produto">
+    <div>
+      <h3 class="NomeBebibas">Ballantine's</h3>
+      <p>R$129,99</p>
+    </div>
+    <img src="combo/ComboRedBallantines.png" alt="Combo Red Bull Ballantine's">
+    <button onclick="adicionarAoCarrinho('Combo Ballantines Red Bull', 129.99)">Adicionar</button>
+  </div>
+
+  <div class="produto">
+    <div>
+      <h3 class="NomeBebibas">Beefeater</h3>
+      <p>R$149,99</p>
+    </div>
+    <img src="combo/ComboRedBeefeater.png" alt="Combo Red Bull Beefeater">
+    <button onclick="adicionarAoCarrinho('Combo Beefeater Red Bull', 149.99)">Adicionar</button>
+  </div>
+
+
+<h2>Agora escolha o seu Gelo!</h2>
+
+  <div class="produtoG">
+    <div class="coluna nome">
+      <h3 class="NomeBebibas">Maracujá</h3>
+    </div>
+    <div class="coluna imagem">
+      <img class="Gelo" src="Gelo/Maracujá.png" alt="Gelo Maracujá">
+    </div>
+    <div class="coluna botao">
+      <button onclick="adicionarAoCarrinho('COMBO Gelo Maracujá', 0.0)">+</button>
+    </div>
+  </div>
+
+  <div class="produtoG">
+    <div class="coluna nome">
+      <h3 class="NomeBebibas">Melancia</h3>
+    </div>
+    <div class="coluna imagem">
+      <img class="Gelo" src="Gelo/Melancia.webp" alt="Gelo Melancia">
+    </div>
+    <div class="coluna botao">
+      <button onclick="adicionarAoCarrinho('COMBO Gelo Melancia', 0.0)">+</button>
+    </div>
+  </div>
+
+  <div class="produtoG">
+    <div class="coluna nome">
+      <h3 class="NomeBebibas">Morango</h3>
+    </div>
+    <div class="coluna imagem">
+      <img class="Gelo" src="Gelo/Morango.png" alt="Gelo Morango">
+    </div>
+    <div class="coluna botao">
+      <button onclick="adicionarAoCarrinho('COMBO Gelo Morango', 0.0)">+</button>
+    </div>
+  </div>
+
+    <div class="produtoG">
+    <div class="coluna nome">
+      <h3 class="NomeBebibas">Maça Verde</h3>
+    </div>
+    <div class="coluna imagem">
+      <img class="Gelo" src="Gelo/Maça verde.webp" alt="Gelo Maça">
+    </div>
+    <div class="coluna botao">
+      <button onclick="adicionarAoCarrinho('COMBO Gelo Maça Verde', 0.0)">+</button>
+    </div>
+  </div>
+
+  <div class="produtoG">
+    <div class="coluna nome">
+      <h3 class="NomeBebibas">Coco</h3>
+    </div>
+    <div class="coluna imagem">
+      <img class="Gelo" src="Gelo/Coco.webp" alt="Gelo Coco">
+    </div>
+    <div class="coluna botao">
+      <button onclick="adicionarAoCarrinho('COMBO Gelo Coco', 0.0)">+</button>
+    </div>
+  </div> 
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>

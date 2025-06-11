@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Carrinho - Volcano Adega</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <a href="index.html" class="botao-voltar">← Voltar ao Cardápio</a>
+</header>
+
+<main class="carrinho">
+  <h2>Finalizar Pedido</h2>
+
+
+
+
+   <div>
+  <h3> Seu Pedido</h3> 
+  <ul id="listaCarrinho"></ul>
+  <p class="Total"><span id="total"></span></p>
+
+  <div class="taxa-entrega">
+    <input type="checkbox" id="taxaEntrega" checked>
+    <label for="taxaEntrega">Taxa de entrega: R$ 4,00</label>
+  </div>
+
+  <p class="TotalFinal">Total Final: R$ <span id="totalFinal"></span></p>
+</div>
+
+
+
+
+  <div class="pagamento">
+    <h3>Pagamento</h3>
+    <label><input type="radio" name="pagamento" value="Crédito" checked> Cartão de Crédito</label>
+    <label><input type="radio" name="pagamento" value="Débito"> Cartão de Débito</label>
+    <label><input type="radio" name="pagamento" value="Dinheiro"> Dinheiro</label>
+    <label><input type="radio" name="pagamento" value="Pix"> Pix</label>
+  </div>
+
+  <div>
+    <h3>Endereço de Entrega</h3>
+    <input type="text" id="nome" placeholder="Nome"><br>
+    <input type="text" id="telefone" placeholder="Número para contato"><br>
+    <input type="text" id="cep" placeholder="CEP"><br>
+    <input type="text" id="endereco" placeholder="Endereço"><br>
+    <input type="text" id="numero" placeholder="Número"><br>
+  </div>
+
+  <button onclick="enviarPedidoWhatsApp()">Enviar Pedido via WhatsApp</button>
+</main>
+
+
+
+<script src="script.js"></script>
+</body>
+</html>
